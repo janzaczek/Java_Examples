@@ -1,0 +1,2 @@
+0.1436---Paweł---Czas--28.0---rozmiar mapy---30x30
+0.1748---Darek---Czas--31.0---rozmiar mapy---20x20
