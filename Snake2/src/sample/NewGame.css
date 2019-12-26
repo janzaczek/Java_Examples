@@ -1,0 +1,22 @@
+#pane{
+    -fx-background-image: url("vbox-back.jpg");
+}
+.label{
+    -fx-font-size: 40;
+}
+#opis{
+    -fx-font-size: 26;
+}
+.text-field{
+    -fx-background-color: olivedrab;
+}
+.button{
+    -fx-background-color: darkolivegreen;
+    -fx-border-color: black;
+    -fx-pref-width: 200px;
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+}
+#error{
+    -fx-font-size: 15;
+}

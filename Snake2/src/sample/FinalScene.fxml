@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:id="box" alignment="CENTER"
+      fx:controller="sample.FinalScene" prefHeight="400.0" prefWidth="400.0" stylesheets="@FinalScene.css">
+    <Label fx:id="label" text="Wpisz swoje Imie:"/>
+    <TextField fx:id="pole" />
+    <Button fx:id="button" text="Zatwierdź" onAction="#zapisz"/>
+
+</VBox>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.NewGameController"
+          fx:id="pane" stylesheets="@NewGame.css" hgap="2">
+    <Label fx:id="opis" text="Podaj rozmiar planszy:" GridPane.rowIndex="0" GridPane.columnIndex="0" translateX="130" translateY="500"/>
+    <Label fx:id="wiersze" text="Liczba wierszy: " GridPane.rowIndex="1" GridPane.columnIndex="0" translateX="130" translateY="500"/>
+    <TextField fx:id="pole1" GridPane.rowIndex="1" GridPane.columnIndex="1" translateX="130" translateY="500"/>
+    <Label fx:id="kolumny" text="Liczba kolumn:" GridPane.rowIndex="2" GridPane.columnIndex="0" translateX="130" translateY="500"/>
+    <TextField fx:id="pole2" GridPane.rowIndex="2" GridPane.columnIndex="1" translateX="130" translateY="500"/>
+    <Button fx:id="button1" text="Zatwierdź" GridPane.rowIndex="3" GridPane.columnIndex="1" translateX="130" translateY="500"
+            onAction="#snake"/>
+    <Label fx:id="error" GridPane.rowIndex="4" GridPane.columnIndex="1" translateX="130" translateY="500"/>
+</GridPane>

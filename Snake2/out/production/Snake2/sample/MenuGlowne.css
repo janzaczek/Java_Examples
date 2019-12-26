@@ -1,0 +1,14 @@
+#box{
+    -fx-background-image: url("vbox-back.jpg");
+    /*-fx-background-repeat: repeat;*/
+}
+#label{
+    -fx-font-size: 60;
+}
+.button{
+    -fx-background-color: darkolivegreen;
+    -fx-border-color: black;
+    -fx-pref-width: 300px;
+    -fx-font-size: 30;
+    -fx-text-fill: black;
+}
