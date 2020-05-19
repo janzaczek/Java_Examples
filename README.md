@@ -1,2 +1,2 @@
-## These are some my most interesting projects from my java classes
+## These are some of my most interesting projects from my java classes
 ### This repo include: implemeted alghoritms, mini-games etc...
